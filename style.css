@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background-color: #0D1321;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+table {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+th, td {
+    min-width: 200px;
+    text-align: left !important;
+    padding: 10px 10px 10px 5px !important;
+}
+
+
+tbody tr:nth-child(odd) {
+    background-color: #243260;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #1a2c65;
+}
+
+tbody tr:hover {
+    opacity: 0.8;
+}
+
+a {
+    color: #9694f7;
+}
+
+a.dir, a.file, a.up {
+    background-position: left !important;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+#parentDirLinkBox {
+    padding: 20px;
+}
+
