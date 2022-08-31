@@ -1,0 +1,13 @@
+{
+    "name": "better-files",
+    "description": "Prettier files browsing in web browser.",
+    "version": "1.0",
+    "content_scripts": [
+        {
+          "matches": ["file:///*"],
+          "js": ["font.js"],
+          "css" : ["style.css"]
+        }
+    ],
+    "manifest_version": 3
+}
