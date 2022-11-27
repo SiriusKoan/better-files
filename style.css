@@ -1,23 +1,22 @@
 body {
     margin: 0;
-    background-color: #0D1321;
+    background-color: #181A18;
     font-family: 'Noto Sans TC', sans-serif;
 }
 
 table {
-    margin-left: 30px;
-    margin-bottom: 30px;
+    margin: 10px auto 30px auto;
+    width: 70vw;
 }
 
 th, td {
     min-width: 200px;
     text-align: left !important;
-    padding: 10px 10px 10px 5px !important;
+    padding: 10px !important;
 }
 
-
 tbody tr:nth-child(odd) {
-    background-color: #243260;
+    background-color: #2C2CAA;
 }
 
 tbody tr:nth-child(even) {
@@ -29,7 +28,7 @@ tbody tr:hover {
 }
 
 a {
-    color: #9694f7;
+    color: #DCDFBF;
 }
 
 a.dir, a.file, a.up {
